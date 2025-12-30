@@ -34,7 +34,7 @@ ChatHub is a full-stack real-time chat application that enables secure one-to-on
 ---
 
 ## Project Structure
-
+```
 chatApp/
 │
 ├── backend/
@@ -57,7 +57,7 @@ chatApp/
 │
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## Prerequisites
@@ -82,28 +82,33 @@ NODE_ENV=development
 
 ## Installation & Run (End-to-End)
 ### 1. Clone the Repository
+```
 git clone https://github.com/Manish9198/ChatHub.git
 cd ChatHub
-
+```
 ### 2. Install Backend Dependencies
+```
 cd backend
 npm install
-
+```
 ### 3. Install Frontend Dependencies
 cd ../frontend
 npm install
 
 ### 4. Start Backend Server
+```
 cd ../backend
 npm run dev
+```
 
 Backend will run on: http://localhost:5001
 
 ### 5. Start Frontend Server
+```
 Open a new terminal:
 cd frontend
 npm run dev
-
+```
 Frontend will run on: http://localhost:5173
 
 
