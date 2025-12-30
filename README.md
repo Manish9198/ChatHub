@@ -92,9 +92,10 @@ cd backend
 npm install
 ```
 ### 3. Install Frontend Dependencies
+```
 cd ../frontend
 npm install
-
+```
 ### 4. Start Backend Server
 ```
 cd ../backend
