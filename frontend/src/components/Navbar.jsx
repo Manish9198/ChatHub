@@ -24,7 +24,7 @@ const Navbar = () => {
                 {/* Icon for the app */}
                 <MessageSquare className="w-5 h-5 text-primary" />
               </div>
-              <h1 className="text-lg font-bold">Chatty</h1> {/* App name */}
+              <h1 className="text-lg font-bold">ChatHub</h1> {/* App name */}
             </Link>
           </div>
 

@@ -100,7 +100,7 @@ export const useAuthStore = create((set, get) => ({
     } catch (error) {
       console.log("error in update profile:", error);
       // If an error occurs, show an error toast
-      const errorMessage = error.response?.data?.message || "An error occurred while updating your profile.";
+      // const errorMessage = error.response?.data?.message || "An error occurred while updating your profile.";
       toast.error(errorMessage);
     } finally {
       set({ isUpdatingProfile: false });  // Reset the update profile flag once done
